@@ -83,7 +83,7 @@ p {
     top: 10px;
     right: 30px;
     position: fixed;
-    z-index: 10;
+    z-index: 12;
     margin-right: 355px;
 }
 
@@ -97,30 +97,47 @@ p {
 
 .links:hover {
     background-color: black;
+    text-decoration: underline;
 }
-a{
+
+a {
     text-decoration: none;
     color: darkviolet;
+    text-shadow: 4px 4px gainsboro;
 }
-.Article1:hover{
+
+.Article1:hover {
     color: aqua;
+    text-decoration: underline;
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
-#App{
+
+#App {
     width: 100%;
     height: 800px;
     background-color: aqua;
 }
-#Sprite{
+
+#Sprite {
     width: 100%;
     height: 800px;
     background-color: aqua;
 }
-img{
-    transition:transform .2s
+
+img {
+    transition: transform .2s
 }
-img:hover{
+
+img:hover {
     transform: scale(1.2);
+}
+.Contact_1 a{
+    color: black;
+    display: inline;
+}
+#Contacts{
+    background-color: chartreuse;
 }
